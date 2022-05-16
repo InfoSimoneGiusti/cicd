@@ -3,6 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  function getDateTime() {
+    return new Date().toString();
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +21,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <h2>Full working CICD Test</h2>
+        <h2>Deployed on {getDateTime()}</h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
