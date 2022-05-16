@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "integrazione_directus": {
+      "name": "integrazione_directus",
+      "isOrdered": true,
+      "folders": {},
+      "files": {
+        "readme": 0
+      }
+    },
+    "out": {
+      "name": "out",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "pages": {
+      "name": "pages",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "public": {
+      "name": "public",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "styles": {
+      "name": "styles",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "README": 0
+  }
+}
