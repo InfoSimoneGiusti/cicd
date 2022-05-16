@@ -16,7 +16,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <h2>This is a simple CICD test</h2>
+        <h2>This is a simple CICD test ... part 2</h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
