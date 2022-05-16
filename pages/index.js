@@ -2,11 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
-
-  function getDateTime() {
-    return new Date().toString();
-  }
+export default function Home(props) {
 
   return (
     <div className={styles.container}>
@@ -21,7 +17,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <h2>Deployed on {getDateTime()}</h2>
+        <h2>Deployed on {props.now}</h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -73,4 +69,15 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export async function getStaticProps(context) {
+
+  const now = new Date().toString();
+
+  return {
+    props: {
+      now
+    }, 
+  }
 }
