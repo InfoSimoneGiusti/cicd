@@ -5,10 +5,8 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-    basePath: '/repo',
-    assetPrefix: '/repo/',
-    basePath: '/repo',
-    assetPrefix: '/repo/'
+    basePath: '/cicd_test',
+    assetPrefix: '/cicd_test/',
 }
 
 module.exports = nextConfig
